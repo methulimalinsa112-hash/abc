@@ -1,0 +1,38 @@
+module.exports = {
+    botName: "SRI LANKA BOT",
+    ownerName: "Owner",
+    prefix: "!",
+
+    messages: {
+        wait: "⏳ Please wait...",
+        success: "✅ Success!",
+        error: "❌ Something went wrong!",
+        ownerOnly: "⚠️ Owner only command!",
+        groupOnly: "⚠️ This command is for groups only!",
+        privateOnly: "⚠️ This command is for private chat only!",
+        notFound: "❌ Command not found!",
+        welcome: "👋 Welcome to our group!",
+        goodbye: "👋 Goodbye!"
+    },
+
+    commands: {
+        menu: true,
+        ping: true,
+        help: true,
+        echo: true,
+        time: true
+    },
+
+    autoReply: {
+        enabled: true,
+        hi: "👋 Hello! මම WhatsApp Bot එකක්.",
+        hello: "😊 Hi! Type !menu to see commands.",
+        thanks: "❤️ You're welcome!"
+    },
+
+    settings: {
+        autoRead: false,
+        autoTyping: false,
+        autoRecording: false
+    }
+};
